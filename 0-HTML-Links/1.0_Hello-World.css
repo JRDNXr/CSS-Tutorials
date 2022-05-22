@@ -1,0 +1,46 @@
+/* This is a CSS file.
+
+CSS stands for Cascading Style Sheets.
+
+CSS files are utilized by HTML, and have no legs of their own. This means that whatever
+you type in a CSS file cannot be displayed without the assistance of an HTML file taking
+advantage of it.
+
+These files correspond to the appropriately named HTML files.
+
+Using CSS:
+  - Inline: Using the "style" attribute inside HTML elements
+  - Internal: Using the <style> element in the <head> section
+  - External: Using the <link> element to link to a CSS file within the <head> section   <-- This is the proper way
+
+Examples (these are all used in an HTML file and NOT CSS)
+
+INLINE: <p style="color:red">TEST</p>
+INTERNAL:
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+    body {color: blue;}
+    </style>
+  </head>
+  <body>
+  <p>This is a test</p>
+  </body>
+</html>
+
+EXTERNAL:
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="[file.css]"
+  </head>
+  <body>
+  </body>
+</html>
+
+The last thing to know from this file is how to comment. And now you know. */
